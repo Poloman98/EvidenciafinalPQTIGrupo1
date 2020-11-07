@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!--www.desarrolloweb.com - www.humanstxt.org - www.ie6countdown.com - flexslider
+- Para hacer un icono ".ico" con el programa Adobe FireWorks css FW
+- Resolucion de img 16*16 resolucion 72 y color lienzo Transparente
+- Convertico.com.
+Para hacer Sitios_web para navegadores viejos hay un costo EXTRA-->
+	<meta chasert="utf-8" />
+	<title>Sitio con Resposive Web Design en HTML5, CSS3 y jQuery</title>
+	<meta name="description" content="Bienvenido a mi Portafolio Web, hecho en HTML5, CSS3 y jQuery con Resposive Web Design" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="author" type="text/plain" href="humans.txt" />
+	<link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml" />
+	<link rel="stylesheet" href="css/flexslider.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script>
+		!window.jQuery && document.write("<script src='js/jquery.min.js'><\/script>");
+	</script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script>
+		$(window).load(function(){
+			$(".flexslider").flexslider();
+		});
+	</script>
+	<!--[if lt IE 9]
+		<script src="htt://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body> 
+	<header>
+		<h1>
+			<a href="index.html">
+				<img class="fade" alt="MotoGP." src="img/motogp.png" />
+			</a>
+		</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="html/acerca.html">Acerca</a></li>
+				<li><a href="html/servicio.html">Servicios</a></li>
+				<li><a href="html/trabajos.html">Trabajos</a></li>
+				<li><a href="html/contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="contenido">
+		<section id="principal">
+			<article id="galeria-inicio">
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<a href="http://www.google.com" target="_blank"><img src="img/flexslider/rossi.jpg" /></a>
+							<p class="flex-caption">bextlan.com | lugar de...bit, vectores y pixeles.</p>
+						</li>
+						<li>
+							<img src="img/flexslider/rossi2.jpg" />
+							<p class="flex-caption">working.tron.com</p>
+						</li>
+						<li>
+							<img src="img/flexslider/rossi3.jpg" />
+							<p class="flex-caption">Cursos HTML5</p>
+						</li>
+						<li>
+							<img src="img/flexslider/rossi4.jpg" />
+							<p class="flex-caption">Cursos PHP</p>
+						</li>
+						<li>
+							<img src="img/flexslider/rossi6.jpg" />
+							<p class="flex-caption">working.tron.com</p>
+						</li>
+						<li>
+							<img src="img/flexslider/rossi7.jpg" />
+							<p class="flex-caption">Cursos HTML5</p>
+						</li>
+						<li>
+							<img src="img/flexslider/rossi1.jpg" />
+							<p class="flex-caption">Cursos PHP</p>
+							
+						</li>
+					</ul>
+				</div>
+			</article>
+		</section>
+		<aside>
+			<!--Twitter
+			<script src="http://platform.twitter.com/widgets.js"> </script>
+			<a href="https://twitter.com/jdguzman31" class="twitter-follow-button"  data-show-screen-name="false" data-dnt="true" data-show-count="true">  </a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			<br/><br/>
+			
+			<!--Facebook
+			<div id="fb-root"></div>
+				<script>(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.9";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script>
+			<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>-->
+	
+			<!--Youtube
+			<script src="https://apis.google.com/js/platform.js"></script>
+			<script>
+			  function onYtEvent(payload) {
+				if (payload.eventType == 'subscribe') {
+				  // Add code to handle subscribe event.
+				} else if (payload.eventType == 'unsubscribe') {
+				  // Add code to handle unsubscribe event.
+				}
+				if (window.console) { // for debugging only
+				  window.console.log('YT event: ', payload);
+				}
+			  }
+			</script>-->
+			
+			<figure>
+					<img src="img/thedoctor.png" alt="geekonos" />
+					<figcaption>VR46</figcaption>
+				</a>
+			</figure>
+		</aside>
+	</section>
+	<footer>
+		Aprendiendo HTML5, CSS3, jQuery y Resposive Web Design con <a rel="author" href="http://twitter.com/nicolas8fajardo" target="_blank">Nicolas Riascos</a>
+	</footer>
+</body>
+</html>
